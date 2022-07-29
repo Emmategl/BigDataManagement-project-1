@@ -2,17 +2,16 @@
 
 Assignment 1: Data Pipelines
 
-3.1 Systemrequirements
-For this assignment you should create the data preproccesing pipeline using sklearn in a sys- tem that:
-• ReadsthelatestdatafromtheInfluxDB
-• Preparesthedataformodeltraining,including
-  – Aligningthetimestampsofthetwodatasources(e.g.throughresampling)
-  – Handlingmissingdata
-  – Alteringthewinddirectiontobeausablefeature(bymappingtoradiansorencod-
-    ing as categorical)
-   – Scalingthedatatobewithinasetrange
-• Trainsalinearregressionmodel
-• Usesthemodeltoforecastwindpowerproduction
+3.1 System requirements
+For this assignment you should create the data preproccesing pipeline using sklearn in a system that:
+- Reads the latest data from the InfluxDB
+- Prepares the data for model training,including:
+  – Aligning the time stamps of the two data sources (e.g.through resampling)
+  – Handling missing data
+  – Altering the wind direction to be a usable feature(by mapping to radians or encoding as categorical)
+   – Scaling the data to be with in a set range
+• Trains a linear regression model
+• Uses the model to forecast wind power production
 
 Much of the scaffolding for this is provided in template.py, so you primarily need to focus on the pipeline.
 
